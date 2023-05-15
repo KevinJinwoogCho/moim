@@ -4,6 +4,8 @@ import { v4 as uuidv4 } from 'uuid';
 import {db} from "./firebase-config";
 import {collection, getDocs, addDoc} from "firebase/firestore";
 
+// changes has been comitted test 2222
+// https://github.com/KevinJinwoogCho/moim.git
 // https://www.youtube.com/watch?v=hQAHSlTtcmY
 // https://www.youtube.com/watch?v=jCY6DH8F4oc&t=2s
 
@@ -11,9 +13,11 @@ import {collection, getDocs, addDoc} from "firebase/firestore";
 const LOCAL_STORAGE_KEY = "todoApp.todos"
 
 
+
 function App() {
   
   /* Start - Firebase */
+  console.log("test")
   const [users, setUsers] = useState([])
   const [newName, setNewName] = useState("")
   const [newAge, setNewAge] = useState(0)
