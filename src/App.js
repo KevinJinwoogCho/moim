@@ -5,6 +5,7 @@ import {db} from "./firebase-config";
 import {collection, getDocs, addDoc} from "firebase/firestore";
 
 // changes has been comitted
+// https://github.com/KevinJinwoogCho/moim.git
 // https://www.youtube.com/watch?v=hQAHSlTtcmY
 // https://www.youtube.com/watch?v=jCY6DH8F4oc&t=2s
 
