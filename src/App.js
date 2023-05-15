@@ -9,7 +9,7 @@ import {collection, getDocs, addDoc} from "firebase/firestore";
 // https://www.youtube.com/watch?v=hQAHSlTtcmY
 // https://www.youtube.com/watch?v=jCY6DH8F4oc&t=2s
 
-//defining variable in Local Storage where we store "todos"
+//defining variable in Local Storage where we store "todos"    111
 const LOCAL_STORAGE_KEY = "todoApp.todos"
 
 
