@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import {db} from "./firebase-config";
 import {collection, getDocs, addDoc} from "firebase/firestore";
 
-// pushing from mac to master
+// git add .   / git status  / git commit -m ""  / git push  / git pull  / git checkout master  / git checkout main
 // https://github.com/KevinJinwoogCho/moim.git
 // https://www.youtube.com/watch?v=hQAHSlTtcmY
 // https://www.youtube.com/watch?v=jCY6DH8F4oc&t=2s
