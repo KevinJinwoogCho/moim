@@ -13,9 +13,11 @@ import {collection, getDocs, addDoc} from "firebase/firestore";
 const LOCAL_STORAGE_KEY = "todoApp.todos"
 
 
+
 function App() {
   
   /* Start - Firebase */
+  console.log("test")
   const [users, setUsers] = useState([])
   const [newName, setNewName] = useState("")
   const [newAge, setNewAge] = useState(0)
